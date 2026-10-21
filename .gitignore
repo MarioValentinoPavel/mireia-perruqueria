@@ -1,0 +1,5 @@
+assets/**/_*.txt
+assets/_unused/
+assets/web/*.html
+*.tmp
+serve.ps1

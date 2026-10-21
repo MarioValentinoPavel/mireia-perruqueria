@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mireia · Perruqueria i Estètica · Lloret de Mar</title>
+<meta name="description" content="Peluquería y estética en Lloret de Mar desde 2002. Diagnóstico capilar, spa capilar, Fibre Clinix, alisado Absolut Evolution 3.0, color sin amoníaco, recogidos y estética. Av. del Rieral, 41.">
+<meta name="theme-color" content="#1b1310">
+<meta property="og:title" content="Mireia · Perruqueria i Estètica">
+<meta property="og:description" content="Cuidamos tu pelo desde el origen. Lloret de Mar, desde 2002.">
+<meta property="og:image" content="assets/img/interior.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%233a2b25'/%3E%3Ctext x='31' y='42' font-family='Georgia,serif' font-size='30' fill='%23f3eee8' text-anchor='middle'%3EMj%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&family=Darker+Grotesque:wght@400..800&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('rm');</script>
+</head>
+<body class="is-loading">
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="mj" viewBox="0 0 120 100">
+      <text x="2" y="70" font-family="Bona Nova, Georgia, serif" font-size="78">M</text>
+      <text x="76" y="70" font-family="Bona Nova, Georgia, serif" font-size="78" font-style="italic">j</text>
+    </symbol>
+    <symbol id="sp-raiz" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><circle cx="12" cy="26" r="1.6" fill="currentColor"/><path d="M12 26c4-7 10-11 18-13"/><path d="M12 26c3-9 6-14 11-18"/><circle cx="25" cy="31" r="1.6" fill="currentColor"/><path d="M25 31c4-4 7-6 11-7"/></g></symbol>
+    <symbol id="sp-fibra" viewBox="0 0 40 40"><path d="M3 24c6-10 10 6 17-4s10 6 17-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+    <symbol id="sp-forma" viewBox="0 0 40 40"><path d="M20 6c9 0 13 8 9 14s-13 6-14 0 6-8 9-4-1 8-4 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="sp-piel" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="13" cy="15" r="7"/><circle cx="27" cy="15" r="7"/><circle cx="20" cy="27" r="7"/></g></symbol>
+  </defs>
+</svg>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-line"><i></i></div>
+  <div class="loader-read"><span class="mono" id="ldx">×1</span><span class="mono">Mireia · 2002</span></div>
+</div>
+
+<header class="bar" id="bar">
+  <a class="brand" href="#top" aria-label="Mireia, inicio">
+    <svg class="brand-mj" viewBox="0 0 120 100" aria-hidden="true"><use href="#mj"/></svg>
+    <span class="brand-name">Mireia<small>Perruqueria i Estètica</small></span>
+  </a>
+  <nav class="nav" aria-label="Secciones">
+    <a href="#laboratorio" data-i18n="nav.lab">Laboratorio</a>
+    <a href="#raiz" data-i18n="nav.raiz">La raíz</a>
+    <a href="#tratamientos" data-i18n="nav.trat">Tratamientos</a>
+    <a href="#resultados" data-i18n="nav.res">Resultados</a>
+    <a href="#salon" data-i18n="nav.salon">El salón</a>
+  </nav>
+  <div class="langs" role="group" aria-label="Idioma" data-i18n-aria="langs">
+    <button type="button" data-lang="es" aria-pressed="true">ES</button>
+    <button type="button" data-lang="ca" aria-pressed="false">CA</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+  </div>
+  <button type="button" class="btn btn-cita" data-cita data-i18n="cita">Pedir cita</button>
+</header>
+
+<aside class="rail" id="rail" aria-hidden="true">
+  <span class="rail-x mono" id="railX">×400</span>
+  <span class="rail-bar"><i></i></span>
+  <span class="rail-u mono" id="railU">10 µm</span>
+  <span class="rail-name" id="railN" data-i18n="o.fibra">La fibra</span>
+</aside>
+
+<main id="main">
+  <div class="micro" id="top">
+    <div class="stage" aria-hidden="true">
+      <canvas id="fiber"></canvas>
+      <div class="stage-fallback"></div>
+    </div>
+
+    <section class="hero" data-mag="×400" data-unit="10 µm" data-o="o.fibra" aria-labelledby="hero-h">
+      <div class="hero-in">
+        <h1 id="hero-h" class="hero-h" data-i18n-html="hero.h">Cuidamos tu pelo <em>desde el origen.</em></h1>
+        <p class="hero-sub" data-i18n="hero.sub">Peluquería y estética en Lloret de Mar desde 2002. Diagnóstico capilar, tratamientos, color sin amoníaco, alisados, recogidos y estética.</p>
+        <div class="hero-ctas">
+          <button type="button" class="btn btn-light" data-cita data-i18n="cita">Pedir cita</button>
+          <a class="btn btn-ghost" href="#laboratorio" data-i18n="hero.cta2">Entrar al laboratorio</a>
+        </div>
+        <ul class="hero-meta">
+          <li class="status" id="status"><i></i><span>Abierto</span></li>
+          <li><a href="https://www.google.com/maps/place/Mireia+Perruqueria+Y+Est%C3%A9tica/@41.70302,2.83913,17z/data=!4m6!3m5!1s0x12bb173e4a241879:0x779e84711c09d64!8m2!3d41.70302!4d2.83913!16s%2Fg%2F11cs5fz1cb" target="_blank" rel="noopener"><span class="stars" aria-hidden="true">★★★★★</span> <span data-i18n="hero.rating">4,8 en Google · 183 reseñas</span></a></li>
+        </ul>
+      </div>
+      <p class="hero-cap mono" data-i18n="hero.cap">Un pelo, 400 veces más grande. Ilustración.</p>
+    </section>
+
+    <section class="lab" id="laboratorio" data-mag="×400" data-unit="10 µm" data-o="o.lab" aria-labelledby="lab-h">
+      <div class="lab-head">
+        <h2 id="lab-h" class="h2" data-i18n-html="lab.h">Mira lo que le pasa a tu pelo <em>por dentro.</em></h2>
+        <p class="lab-p" data-i18n="lab.p">Elige cómo lo tienes hoy y un tratamiento. Luego pulsa Aplicar o pasa el dedo por la fibra.</p>
+      </div>
+      <div class="lab-touch" id="labTouch" aria-hidden="true"></div>
+      <div class="lab-panel" id="labPanel">
+        <div class="lab-row">
+          <p class="lab-q" id="q1" data-i18n="lab.q1">Tu pelo hoy</p>
+          <div class="chips" role="radiogroup" aria-labelledby="q1" id="hoy">
+            <button type="button" role="radio" aria-checked="false" data-h="seco" data-i18n="h.seco">Seco y encrespado</button>
+            <button type="button" role="radio" aria-checked="false" data-h="rizado" data-i18n="h.rizado">Rizado</button>
+            <button type="button" role="radio" aria-checked="false" data-h="tenido" data-i18n="h.tenido">Teñido y sin brillo</button>
+            <button type="button" role="radio" aria-checked="false" data-h="fino" data-i18n="h.fino">Fino, se me cae</button>
+          </div>
+        </div>
+        <div class="lab-row">
+          <p class="lab-q" id="q2" data-i18n="lab.q2">Tratamiento</p>
+          <div class="chips chips-t" role="radiogroup" aria-labelledby="q2" id="trat">
+            <button type="button" role="radio" aria-checked="false" data-t="spa"><b data-i18n="t.spa">Spa capilar</b><small data-i18n="k.spa">Hidratación</small><em class="rec" data-i18n="rec">Recomendado</em></button>
+            <button type="button" role="radio" aria-checked="false" data-t="fibre"><b data-i18n="t.fibre">Fibre Clinix</b><small data-i18n="k.fibre">Reconstrucción</small><em class="rec" data-i18n="rec">Recomendado</em></button>
+            <button type="button" role="radio" aria-checked="false" data-t="alisado"><b data-i18n="t.alisado">Absolut Evolution 3.0</b><small data-i18n="k.alisado">Alisado</small><em class="rec" data-i18n="rec">Recomendado</em></button>
+            <button type="button" role="radio" aria-checked="false" data-t="color"><b data-i18n="t.color">Color sin amoníaco</b><small data-i18n="k.color">Coloración orgánica</small><em class="rec" data-i18n="rec">Recomendado</em></button>
+          </div>
+        </div>
+        <div class="lab-row lab-sw" id="swRow" hidden>
+          <p class="lab-q" id="q3" data-i18n="lab.q3">Tono</p>
+          <div class="swatches" role="radiogroup" aria-labelledby="q3" id="sw">
+            <button type="button" role="radio" aria-checked="true" data-c="caoba" style="--c:#6e2a1c"><span data-i18n="sw.caoba">Caoba</span></button>
+            <button type="button" role="radio" aria-checked="false" data-c="chocolate" style="--c:#3b2219"><span data-i18n="sw.chocolate">Chocolate</span></button>
+            <button type="button" role="radio" aria-checked="false" data-c="cobre" style="--c:#a4502a"><span data-i18n="sw.cobre">Cobre</span></button>
+            <button type="button" role="radio" aria-checked="false" data-c="miel" style="--c:#c69a5e"><span data-i18n="sw.miel">Rubio miel</span></button>
+            <button type="button" role="radio" aria-checked="false" data-c="azul" style="--c:#1d2230"><span data-i18n="sw.azul">Negro azulado</span></button>
+            <button type="button" role="radio" aria-checked="false" data-c="verde" style="--c:#2f8a55"><span data-i18n="sw.verde">Puntas verdes</span></button>
+          </div>
+        </div>
+        <div class="lab-foot">
+          <dl class="readout" id="readout">
+            <div><dt data-i18n="r.cut">Cutícula</dt><dd id="rdCut">·</dd></div>
+            <div><dt data-i18n="r.gloss">Brillo</dt><dd id="rdGloss">·</dd></div>
+            <div><dt data-i18n="r.shape">Forma</dt><dd id="rdShape">·</dd></div>
+          </dl>
+          <p class="lab-msg" id="labMsg" aria-live="polite" data-i18n="lab.idle">Elige cómo tienes el pelo hoy.</p>
+          <div class="lab-actions">
+            <button type="button" class="btn btn-light" id="apply" disabled data-i18n="apply">Aplicar</button>
+            <a class="btn btn-ghost" id="labWa" href="#" target="_blank" rel="noopener" hidden>Quiero</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="raiz" id="raiz" data-mag="×40" data-unit="100 µm" data-o="o.raiz" aria-labelledby="raiz-h">
+    <div class="raiz-in">
+      <h2 id="raiz-h" class="h2" data-i18n-html="raiz.h">Tu cabello es el reflejo de lo que ocurre <em>en la raíz.</em></h2>
+      <div class="raiz-grid">
+        <figure class="ocular-wrap">
+          <div class="ocular" id="ocular">
+            <canvas id="scalp" aria-hidden="true"></canvas>
+            <svg class="reticle" viewBox="0 0 200 200" aria-hidden="true">
+              <circle cx="100" cy="100" r="99" fill="none" stroke="currentColor" stroke-width=".6"/>
+              <g id="ticks" stroke="currentColor" stroke-width=".5"></g>
+              <path d="M100 86v-8M100 114v8M86 100h-8M114 100h8" stroke="currentColor" stroke-width=".5"/>
+            </svg>
+            <span class="ocular-state mono" id="ocState" data-i18n="raiz.l1">Sano</span>
+          </div>
+          <figcaption class="mono" data-i18n="raiz.fig">Fig. A · Cuero cabelludo ×40. Ilustración.</figcaption>
+        </figure>
+        <ol class="raiz-steps">
+          <li class="step" data-t="0">
+            <span class="step-n mono">01</span>
+            <h3 data-i18n="raiz.s1h">Una raíz en equilibrio</h3>
+            <p data-i18n="raiz.s1p">Pelos gruesos que salen de dos en dos y de tres en tres. Así se ve de cerca un cuero cabelludo sano.</p>
+          </li>
+          <li class="step" data-t="1">
+            <span class="step-n mono">02</span>
+            <h3 data-i18n="raiz.s2h">¿Se te cae más de lo normal?</h3>
+            <p data-i18n="raiz.s2p">Puede que tu cuero cabelludo te esté avisando. La caída no aparece por casualidad.</p>
+            <ul class="causes">
+              <li data-i18n="c.1">Estrés</li>
+              <li data-i18n="c.2">Cambios hormonales</li>
+              <li data-i18n="c.3">Falta de nutrientes</li>
+              <li data-i18n="c.4">Desequilibrio del cuero cabelludo</li>
+            </ul>
+          </li>
+          <li class="step" data-t="2">
+            <span class="step-n mono">03</span>
+            <h3 data-i18n="raiz.s3h">Detectarlo a tiempo marca la diferencia.</h3>
+            <p data-i18n="raiz.s3p">Miramos tu raíz de cerca, te explicamos qué le pasa y la cuidamos desde el origen, no solo las puntas.</p>
+            <button type="button" class="btn btn-dark" data-cita data-serv="s.diag" data-i18n="raiz.cta">Pedir diagnóstico capilar</button>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="trat" id="tratamientos" data-mag="×10" data-unit="1 mm" data-o="o.trat" aria-labelledby="trat-h">
+    <div class="trat-head">
+      <h2 id="trat-h" class="h2" data-i18n-html="trat.h">De la raíz a las puntas. <em>Y la piel.</em></h2>
+      <p class="lead" data-i18n="trat.lead">Cada portaobjetos, un servicio. Pregúntanos precio y disponibilidad por WhatsApp.</p>
+    </div>
+    <div class="boxes">
+      <div class="box" data-g="raiz">
+        <h3 class="box-h"><span class="mono">R</span><span data-i18n="g.raiz">Raíz</span></h3>
+        <ul class="slides">
+          <li class="slide" data-serv="s.diag" style="--tint:#5b3a2c"><span class="slide-l mono">R·01</span><div class="slide-b"><h4 data-i18n="s.diag">Diagnóstico capilar</h4><p data-i18n="s.diag.p">Miramos tu cuero cabelludo de cerca antes de decidir nada.</p></div><svg class="slide-s"><use href="#sp-raiz"/></svg></li>
+          <li class="slide" data-serv="s.spa" style="--tint:#3f6f78"><span class="slide-l mono">R·02</span><div class="slide-b"><h4 data-i18n="s.spa">Spa capilar</h4><p data-i18n="s.spa.p">Limpieza, hidratación y masaje para el cuero cabelludo y la fibra.</p></div><svg class="slide-s"><use href="#sp-raiz"/></svg></li>
+          <li class="slide" data-serv="s.caida" style="--tint:#6d4b3a"><span class="slide-l mono">R·03</span><div class="slide-b"><h4 data-i18n="s.caida">Tratamiento para la caída</h4><p data-i18n="s.caida.p">Cuidamos la raíz y hacemos el seguimiento contigo.</p></div><svg class="slide-s"><use href="#sp-raiz"/></svg></li>
+        </ul>
+      </div>
+      <div class="box" data-g="fibra">
+        <h3 class="box-h"><span class="mono">F</span><span data-i18n="g.fibra">Fibra</span></h3>
+        <ul class="slides">
+          <li class="slide" data-serv="s.fibre" style="--tint:#8a5a3c"><span class="slide-l mono">F·01</span><div class="slide-b"><h4 data-i18n="s.fibre">Fibre Clinix</h4><p data-i18n="s.fibre.p">Reconstrucción de la fibra en el salón y mantenimiento en casa.</p></div><svg class="slide-s"><use href="#sp-fibra"/></svg></li>
+          <li class="slide" data-serv="s.rizos" style="--tint:#3b2219"><span class="slide-l mono">F·02</span><div class="slide-b"><h4 data-i18n="s.rizos">Hidratación para rizos</h4><p data-i18n="s.rizos.p">Rizos definidos y sin encrespado, con productos sin alcoholes secantes.</p></div><svg class="slide-s"><use href="#sp-forma"/></svg></li>
+          <li class="slide" data-serv="s.absolut" style="--tint:#4a2a1e"><span class="slide-l mono">F·03</span><div class="slide-b"><h4 data-i18n="s.absolut">Alisado Absolut Evolution 3.0</h4><p data-i18n="s.absolut.p">Adiós al rizo con queratina hidrolizada, sin plancha ni calor.</p></div><svg class="slide-s"><use href="#sp-fibra"/></svg></li>
+          <li class="slide" data-serv="s.japo" style="--tint:#2a1a14"><span class="slide-l mono">F·04</span><div class="slide-b"><h4 data-i18n="s.japo">Alisado japonés y brasileño</h4><p data-i18n="s.japo.p">Liso duradero, a la medida de tu pelo.</p></div><svg class="slide-s"><use href="#sp-fibra"/></svg></li>
+          <li class="slide" data-serv="s.organico" style="--tint:#6e2a1c"><span class="slide-l mono">F·05</span><div class="slide-b"><h4 data-i18n="s.organico">Coloración orgánica</h4><p data-i18n="s.organico.p">Color sin amoníaco, con brillo y la fibra intacta.</p></div><svg class="slide-s"><use href="#sp-fibra"/></svg></li>
+          <li class="slide" data-serv="s.express" style="--tint:#a4502a"><span class="slide-l mono">F·06</span><div class="slide-b"><h4 data-i18n="s.express">Tinte exprés</h4><p data-i18n="s.express.p">Tu color en 10 minutos de exposición.</p></div><svg class="slide-s"><use href="#sp-fibra"/></svg></li>
+          <li class="slide" data-serv="s.mechas" style="--tint:#c69a5e"><span class="slide-l mono">F·07</span><div class="slide-b"><h4 data-i18n="s.mechas">Mechas, balayage y rubios</h4><p data-i18n="s.mechas.p">Rubios luminosos y reflejos pensados para ti.</p></div><svg class="slide-s"><use href="#sp-fibra"/></svg></li>
+        </ul>
+      </div>
+      <div class="box" data-g="forma">
+        <h3 class="box-h"><span class="mono">C</span><span data-i18n="g.forma">Forma</span></h3>
+        <ul class="slides">
+          <li class="slide" data-serv="s.corte" style="--tint:#3a2b25"><span class="slide-l mono">C·01</span><div class="slide-b"><h4 data-i18n="s.corte">Corte de mujer y de hombre</h4><p data-i18n="s.corte.p">Peluquería unisex con asesoramiento personalizado.</p></div><svg class="slide-s"><use href="#sp-forma"/></svg></li>
+          <li class="slide" data-serv="s.recogidos" style="--tint:#8a5a3c"><span class="slide-l mono">C·02</span><div class="slide-b"><h4 data-i18n="s.recogidos">Recogidos y novias</h4><p data-i18n="s.recogidos.p">Del semirrecogido romántico a la boda de noche.</p></div><svg class="slide-s"><use href="#sp-forma"/></svg></li>
+          <li class="slide" data-serv="s.ext" style="--tint:#5b3a2c"><span class="slide-l mono">C·03</span><div class="slide-b"><h4 data-i18n="s.ext">Extensiones</h4><p data-i18n="s.ext.p">Naturales, de queratina y de cortina.</p></div><svg class="slide-s"><use href="#sp-fibra"/></svg></li>
+          <li class="slide" data-serv="s.peinado" style="--tint:#6d4b3a"><span class="slide-l mono">C·04</span><div class="slide-b"><h4 data-i18n="s.peinado">Peinados y rizos</h4><p data-i18n="s.peinado.p">Secados, ondas y rizos para cualquier ocasión.</p></div><svg class="slide-s"><use href="#sp-forma"/></svg></li>
+        </ul>
+      </div>
+      <div class="box" data-g="piel">
+        <h3 class="box-h"><span class="mono">E</span><span data-i18n="g.piel">Piel y manos</span></h3>
+        <ul class="slides">
+          <li class="slide" data-serv="s.radio" style="--tint:#b77d6a"><span class="slide-l mono">E·01</span><div class="slide-b"><h4 data-i18n="s.radio">Radiofrecuencia</h4><p data-i18n="s.radio.p">Para una piel más firme y luminosa.</p></div><svg class="slide-s"><use href="#sp-piel"/></svg></li>
+          <li class="slide" data-serv="s.dermapen" style="--tint:#a86a5a"><span class="slide-l mono">E·02</span><div class="slide-b"><h4 data-i18n="s.dermapen">Dermapen</h4><p data-i18n="s.dermapen.p">Activa la regeneración natural de la piel.</p></div><svg class="slide-s"><use href="#sp-piel"/></svg></li>
+          <li class="slide" data-serv="s.depi" style="--tint:#c4917c"><span class="slide-l mono">E·03</span><div class="slide-b"><h4 data-i18n="s.depi">Depilación facial</h4><p data-i18n="s.depi.p">Rápida, precisa y cuidadosa.</p></div><svg class="slide-s"><use href="#sp-piel"/></svg></li>
+          <li class="slide" data-serv="s.mani" style="--tint:#d29a9a"><span class="slide-l mono">E·04</span><div class="slide-b"><h4 data-i18n="s.mani">Manicura</h4><p data-i18n="s.mani.p">Manos cuidadas, del natural al perfilado.</p></div><svg class="slide-s"><use href="#sp-piel"/></svg></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="res" id="resultados" data-mag="×1" data-unit="1 cm" data-o="o.res" aria-labelledby="res-h">
+    <div class="res-head">
+      <h2 id="res-h" class="h2" data-i18n-html="res.h">Y esto es lo que se ve <em>a simple vista.</em></h2>
+      <p class="lead" data-i18n="res.lead">Trabajos del salón. Sin filtros de laboratorio.</p>
+    </div>
+    <div class="figs">
+      <figure class="fig f1"><div class="fig-m"><img src="assets/img/puntas-verdes.jpg" width="1080" height="1350" alt="Melena negra azulada con las puntas teñidas de verde, vista de espaldas" loading="lazy"></div><figcaption><span class="mono">Fig. 1</span> <span data-i18n="fig.1">Negro azulado con puntas verdes</span></figcaption></figure>
+      <figure class="fig f2"><div class="fig-m"><img src="assets/img/semirrecogido.jpg" width="1323" height="1600" alt="Semirrecogido con ondas largas y una tiara de flores" loading="lazy"></div><figcaption><span class="mono">Fig. 2</span> <span data-i18n="fig.3">Semirrecogido de ondas con tiara</span></figcaption></figure>
+      <figure class="fig f3"><div class="fig-m"><img src="assets/img/nuca-diseno.jpg" width="1200" height="1200" alt="Corte corto con la nuca rapada y un diseño de líneas" loading="lazy"></div><figcaption><span class="mono">Fig. 3</span> <span data-i18n="fig.2">Nuca rapada con diseño de líneas</span></figcaption></figure>
+      <figure class="fig f4"><div class="fig-m"><img src="assets/img/liso.jpg" width="720" height="960" alt="Melena castaña larga y lisa con mucho brillo, vista de espaldas" loading="lazy"></div><figcaption><span class="mono">Fig. 4</span> <span data-i18n="fig.4">Liso con brillo de espejo</span></figcaption></figure>
+      <figure class="fig f5"><div class="fig-m"><img src="assets/img/manicura.jpg" width="1432" height="1600" alt="Manos con manicura nude y perfilado blanco entre orquídeas" loading="lazy"></div><figcaption><span class="mono">Fig. 5</span> <span data-i18n="fig.5">Manicura con perfilado blanco</span></figcaption></figure>
+      <figure class="fig f6"><div class="fig-m"><img src="assets/img/melena.jpg" width="480" height="848" alt="Clienta con melena larga y oscura en el sillón del salón" loading="lazy"></div><figcaption><span class="mono">Fig. 6</span> <span data-i18n="fig.6">Melena larga, en el sillón</span></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="manos" id="equipo" data-mag="×1" data-unit="1 cm" data-o="o.manos" aria-labelledby="manos-h">
+    <h2 id="manos-h" class="h2" data-i18n-html="manos.h">Las manos <em>que lo hacen.</em></h2>
+    <ul class="team">
+      <li class="who">
+        <span class="who-n">Mireia</span>
+        <p class="who-q" data-i18n="m.mireia">Su nombre está en la puerta desde 2002.</p>
+      </li>
+      <li class="who">
+        <span class="who-n">Raquel</span>
+        <blockquote class="who-q" lang="es">«¡Tiene las manos tan suaves como las de un hada!»</blockquote>
+        <p class="who-by">Mara Gomes, <span data-i18n="q.by">en Google</span></p>
+      </li>
+      <li class="who">
+        <span class="who-n">Rosa</span>
+        <blockquote class="who-q" lang="es">«Tiene detalles como hacer masaje en la cabeza mientras enjuaga con agua el pelo!»</blockquote>
+        <p class="who-by">Lili Lili, <span data-i18n="q.by">en Google</span></p>
+      </li>
+      <li class="who">
+        <span class="who-n">Andrea</span>
+        <blockquote class="who-q" lang="es">«Andrea es buenísima en lo que hace!!!»</blockquote>
+        <p class="who-by">Google</p>
+      </li>
+    </ul>
+
+    <div class="revs">
+      <div class="revs-score">
+        <span class="revs-big">4,8</span>
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span class="revs-n" data-i18n="rev.n">183 reseñas en Google</span>
+        <span class="revs-orig" data-i18n="rev.orig"></span>
+        <a class="link" href="https://www.google.com/maps/place/Mireia+Perruqueria+Y+Est%C3%A9tica/@41.70302,2.83913,17z/data=!4m8!3m7!1s0x12bb173e4a241879:0x779e84711c09d64!8m2!3d41.70302!4d2.83913!9m1!1b1!16s%2Fg%2F11cs5fz1cb" target="_blank" rel="noopener" data-i18n="rev.all">Leer todas en Google</a>
+      </div>
+      <ul class="quotes">
+        <li><blockquote lang="es">«Es una experiencia única que merece la pena vivir, el trato, los productos, el lugar […] sin duda alguna los mejores en Lloret de Mar»</blockquote><cite>Yhosleidy B'R</cite></li>
+        <li><blockquote lang="es">«Me hice un spacapilar y genial! […] Me hicieron un tratamiento de hidratación y me ha durado mucho y lo noté desde el primer día.»</blockquote><cite>Vanesa Mestres</cite></li>
+        <li><blockquote lang="es">«Aún no sé dónde me colocó Raquel todo el cabello, pero el resultado ha sido un recogido con trenzas precioso»</blockquote><cite>Carolina Muñoz</cite></li>
+        <li><blockquote lang="es">«Soy de fuera y iba un poco a ciegas sin saber como trabajan y pienso volver, trabajan perfecto!»</blockquote><cite>Lili Lili</cite></li>
+        <li><blockquote lang="es">«Me han atendido muy bien, mujeres alegres con gran amabilidad y profesionalidad.»</blockquote><cite>Google</cite></li>
+        <li><blockquote lang="es">«Un buen corte de pelo buen trato y muy bien de precio»</blockquote><cite>Google</cite></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="salon" id="salon" data-mag="×0,01" data-unit="1 m" data-o="o.salon" aria-labelledby="salon-h">
+    <div class="salon-photos">
+      <figure class="salon-in"><img src="assets/img/interior.jpg" width="1200" height="1600" alt="Interior del salón: suelo de mármol, pared vegetal y estanterías de producto con el monograma Mj" loading="lazy"></figure>
+      <figure class="salon-out"><img src="assets/img/fachada.jpg" width="1600" height="1200" alt="Fachada del salón con el rótulo marrón Mj, Centre de Bellesa, Perruqueria i Estètica" loading="lazy"></figure>
+    </div>
+    <div class="salon-info">
+      <h2 id="salon-h" class="h2" data-i18n-html="salon.h">Av. del Rieral, 41. <em>Lloret de Mar.</em></h2>
+      <p class="lead" data-i18n="salon.p">Pared verde, suelo de mármol y el lavacabezas esperándote. Abrimos de martes a sábado.</p>
+      <div class="info-grid">
+        <div>
+          <h3 class="mini" data-i18n="l.hours">Horario</h3>
+          <ul class="hours" id="horario"></ul>
+          <p class="status status-dark" id="status2"><i></i><span></span></p>
+        </div>
+        <div>
+          <h3 class="mini" data-i18n="l.where">Dónde</h3>
+          <p>Av. del Rieral, 41<br>17310 Lloret de Mar, Girona</p>
+          <p class="small" data-i18n="l.access">Acceso y aseo adaptados para sillas de ruedas.</p>
+          <a class="link" data-maps href="https://www.google.com/maps/dir/?api=1&destination=Mireia+Perruqueria+Y+Est%C3%A9tica%2C+Av.+del+Rieral+41%2C+Lloret+de+Mar" target="_blank" rel="noopener" data-i18n="l.dir">Cómo llegar</a>
+          <h3 class="mini" data-i18n="l.contact">Contacto</h3>
+          <p class="contact">
+            <a href="tel:+34972360945">972 36 09 45</a><br>
+            <a href="https://wa.me/34670327185" target="_blank" rel="noopener">WhatsApp 670 32 71 85</a><br>
+            <a href="mailto:mireiaperruqueriaestetica@gmail.com">mireiaperruqueriaestetica<wbr>@gmail.com</a><br>
+            <a href="https://www.facebook.com/Mireiaperruestetica/" target="_blank" rel="noopener">Facebook</a>
+          </p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-dark" data-cita data-i18n="cita">Pedir cita</button>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <svg class="foot-mj" viewBox="0 0 120 100" aria-hidden="true"><use href="#mj"/></svg>
+  <p class="foot-name">Mireia</p>
+  <p class="foot-tag" data-i18n="foot.tag">Perruqueria i Estètica · Lloret de Mar · desde 2002</p>
+  <p class="foot-note" data-i18n="foot.note">Las fibras y el cuero cabelludo de esta web son ilustraciones con fines divulgativos.</p>
+  <a class="link" href="#top" data-i18n="foot.top">Volver arriba</a>
+</footer>
+
+<dialog class="cita" id="cita" aria-labelledby="cita-h">
+  <form method="dialog" class="cita-in" id="citaForm">
+    <button class="cita-x" value="close" aria-label="Cerrar" data-i18n-aria="cita.close">×</button>
+    <h2 id="cita-h" class="h3" data-i18n="cita.h">Pedir cita</h2>
+    <p class="small" data-i18n="cita.p">Te contestamos por WhatsApp para cerrar día y hora.</p>
+    <label class="field"><span data-i18n="cita.serv">Qué te hacemos</span>
+      <select id="citaServ" name="serv"></select>
+    </label>
+    <fieldset class="field">
+      <legend data-i18n="cita.day">Qué día te va mejor</legend>
+      <div class="pills" id="citaDays"></div>
+    </fieldset>
+    <fieldset class="field">
+      <legend data-i18n="cita.when">Franja</legend>
+      <div class="pills" id="citaWhen">
+        <label><input type="radio" name="when" value="cita.m"><span data-i18n="cita.m">Mañana</span></label>
+        <label><input type="radio" name="when" value="cita.t"><span data-i18n="cita.t">Tarde</span></label>
+        <label><input type="radio" name="when" value="" checked><span data-i18n="cita.any">Me da igual</span></label>
+      </div>
+    </fieldset>
+    <label class="field"><span data-i18n="cita.name">Tu nombre</span>
+      <input id="citaName" name="name" type="text" autocomplete="given-name" maxlength="40">
+    </label>
+    <button type="button" class="btn btn-dark btn-wide" id="citaSend" data-i18n="cita.send">Enviar por WhatsApp</button>
+    <p class="small center"><span data-i18n="cita.or">o llama al</span> <a href="tel:+34972360945">972 36 09 45</a></p>
+  </form>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/fiber.js"></script>
+<script src="js/scalp.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
